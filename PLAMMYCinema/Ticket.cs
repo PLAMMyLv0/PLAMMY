@@ -18,7 +18,7 @@ namespace PLAMMYCinema
         public List<double> Price { get; set; }
         public Ticket()
         {
-            Movie = new List<string>()
+            Movie = new List<string>();
             SeatNumber = new List<int>();
             Price = new List<double>();
         }
