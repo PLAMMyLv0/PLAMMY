@@ -15,9 +15,10 @@ namespace PLAMMYCinema
             CinemaList = new List<Ticket>();
         }
         //แสดงรายการภาพยนตร์ที่มีให้จอง
+        Movie Movie_ = new List<Movie>();
         public void ShowMovie()
         {
-
+            Console.WriteLine("HELLO");
         }
         //จองตั๋วสำหรับภาพยนตร์
         public void 
