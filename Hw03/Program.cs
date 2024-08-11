@@ -1,0 +1,14 @@
+﻿double a, b, c, d, e, max;
+Console.Write("Input A:"); a = Convert.ToDouble(Console.ReadLine());
+Console.Write("Input B:"); b = Convert.ToDouble(Console.ReadLine());
+Console.Write("Input C:"); c = Convert.ToDouble(Console.ReadLine());
+Console.Write("Input D:"); d = Convert.ToDouble(Console.ReadLine());
+Console.Write("Input E:"); e = Convert.ToDouble(Console.ReadLine());
+double sum = a + b + c + d + e;
+double avg = sum / 5;
+max = a;
+if (b > max) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (e > max) max = e;
+Console.Write($"Sum:{sum}\nAvg:{avg}\nMax:{max}");
